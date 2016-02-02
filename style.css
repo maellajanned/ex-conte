@@ -6,6 +6,7 @@ body {
   padding: 0;
   position: relative;
   display: table;
+background-color: rgba(224, 206, 209, 0.34)
 
 }
 /*============================la nav bar====================*/
@@ -29,12 +30,19 @@ body {
   padding-top: 15px;
   text-align: center;
 }
-.carousel-inner > .item > img,
+
+.carousel-inner > .item > img{
+    width:600px;
+    min-height: 500px;
+    margin: auto;
+
+}
  .carousel-inner > .item > a  {
      width:600px;
+     max-height: 500px;
      margin: auto;
-     overflow-y: hidden;
-     overflow-x: hidden;
+
+
  }
 div img {
   margin-left: 30px;
@@ -45,7 +53,7 @@ ol li{
 }
 /*=======================partie section===================*/
 section{
-  width:50%;
+  width:47%;
   top: 10%;
   float: left;
   margin-left: 30px;
@@ -54,22 +62,38 @@ section{
 /*=========================petit prince=============*/
 section p{
   width: 600px;
+  margin-top: 50px;
+}
+.Pp < h1 < img < figcaption < p{
+  border-radius: 2%;
 }
 article figcaption {
- margin-right:250px;
- margin-top: 0;
+ margin-right:240px;
+ margin-top: -300px;
  float: right;
+ font-size: 15px;
+ text-decoration: underline;
+}
+.Pp h1{
+  float: right;
+  text-decoration:underline;
+}
+.pp img{
+  margin-top: 70px;
+  border-radius: 33px;
+box-shadow: inset -13px 0px 50px 0px #BFBFBF;
 }
 /*=========================partie aside==============*/
 aside{
-  width:50%;
+  width:47%;
   margin-left: 643px;
   margin-right:3% ;
   top: 10%;
 
 }
 aside p{
-  margin-top: 50px;
+  margin-top: 75px;
+  margin-right: 15px;
 }
 /*===========================le footer========================*/
 footer {
@@ -85,8 +109,8 @@ footer {
 
 }
 footer li {
-  margin: 0 12px;
-  display: inline;
+  margin-left: 75px;
+    display: inline;
   text-align: center;
   line-height: 10px;
 
